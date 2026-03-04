@@ -55,8 +55,7 @@ function About() {
                     >
                         <motion.p variants={fadeUp}>
                             I&apos;m a Full-Stack Web Developer based in {personalInfo.location},
-                            currently pursuing B.Tech in Computer Science Engineering (Cyber
-                            Security) at Galgotias University, graduating in 2026.
+                            currently pursuing B.Tech in Computer Science Engineering at Galgotias University, graduating in 2026.
                         </motion.p>
                         <motion.p variants={fadeUp}>
                             I specialize in building scalable web applications using React.js,
@@ -64,11 +63,7 @@ function About() {
                             production-level systems during my internship at Napps Technology,
                             where I worked on the SilverPos Restaurant Management System.
                         </motion.p>
-                        <motion.p variants={fadeUp}>
-                            When I&apos;m not coding, I&apos;m exploring new technologies,
-                            solving DSA problems, and looking for my next freelance challenge
-                            on Fiverr.
-                        </motion.p>
+
 
                         <motion.div
                             className="about-contact-grid"
@@ -113,9 +108,10 @@ function About() {
                                 <span className="about-card-dot" />
                                 <span className="about-card-title">Currently</span>
                             </div>
-                            <div className="about-card-item">🎓 Final year B.Tech CSE</div>
-                            <div className="about-card-item">💼 Open to freelance &amp; internships</div>
-                            <div className="about-card-item">📍 {personalInfo.location}</div>
+                            <div className="about-card-item">Final year B.Tech CSE</div>
+                            <div className="about-card-item">{personalInfo.location}</div>
+                            <div className="about-card-item"> Open to Job</div>
+
                         </motion.div>
 
                         <motion.div className="about-card" variants={fadeUp}>

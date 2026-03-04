@@ -52,10 +52,6 @@ function Hero() {
                         {personalInfo.tagline}
                     </motion.p>
 
-                    <motion.p className="hero-description" variants={fadeUp}>
-                        Currently studying B.Tech CSE at Galgotias University. Building
-                        real-world applications with React, Node.js and MongoDB.
-                    </motion.p>
 
                     <motion.div className="hero-buttons" variants={fadeUp}>
                         <a href="#projects" className="btn-primary">
