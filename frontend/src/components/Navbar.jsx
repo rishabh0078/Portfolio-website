@@ -89,15 +89,6 @@ function Navbar() {
                             Available for work
                         </div>
                     )}
-                    <a
-                        href={personalInfo.resumeLink}
-                        className="resume-btn"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Download Resume"
-                    >
-                        Resume
-                    </a>
                     <button
                         className={`hamburger${menuOpen ? " open" : ""}`}
                         onClick={() => setMenuOpen(!menuOpen)}
