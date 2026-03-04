@@ -86,13 +86,7 @@ function About() {
                                     <div className="about-contact-value">{personalInfo.location}</div>
                                 </div>
                             </motion.div>
-                            <motion.div className="about-contact-card" variants={fadeUp}>
-                                <FiPhone className="card-icon" style={{ color: "var(--accent)" }} />
-                                <div>
-                                    <div className="about-contact-label">Phone</div>
-                                    <div className="about-contact-value">{personalInfo.phone}</div>
-                                </div>
-                            </motion.div>
+
                         </motion.div>
                     </motion.div>
 

@@ -89,20 +89,7 @@ function Contact() {
                             </div>
                         </motion.div>
 
-                        <motion.div
-                            className="contact-card"
-                            variants={fadeUp}
-                            whileHover={{
-                                borderColor: "var(--accent)",
-                                transition: { duration: 0.2 },
-                            }}
-                        >
-                            <div className="contact-card-icon">
-                                <FiPhone size={20} />
-                            </div>
-                            <div className="contact-card-label">Phone</div>
-                            <div className="contact-card-value">{personalInfo.phone}</div>
-                        </motion.div>
+
 
                         <motion.div
                             className="contact-card"
